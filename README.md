@@ -187,7 +187,3 @@ This collection of notes and learnings has been refined through years of practic
 ## License
 
 This knowledge base is provided as a shared resource for the community.
-
----
-
-**Start exploring:** [Getting Started →](docs/getting-started.md)
