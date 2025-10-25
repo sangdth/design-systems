@@ -1,0 +1,55 @@
+---
+alwaysApply: true
+---
+
+# Markdown Quality Rules
+
+## Core Requirements
+
+1. **Follow markdownlint rules** - Zero warnings in output
+2. **Apply GitHub Markdown standards** - Use GitHub Flavored Markdown (GFM) conventions
+3. **Fix all linting warnings** - Before delivering any markdown content
+
+## Key Practices
+
+**Structure:**
+
+- One H1 (`#`) per document, at the top
+- No skip-level headings (don't jump from H1 to H3)
+- Blank line before/after headings, lists, code blocks
+- End files with single newline
+
+**Lists:**
+
+- Consistent markers (either `*` or `-`, not mixed)
+- Indent nested items by 2-4 spaces
+- Blank lines between list items with multiple paragraphs
+
+**Code:**
+
+- Always specify language for fenced code blocks
+- Use backticks for inline code: `variable`
+- Indent code blocks consistently
+
+**Links & Images:**
+
+- Use reference-style links for repeated URLs
+- Descriptive alt text for images
+- No bare URLs - always use link syntax
+
+**Whitespace:**
+
+- No trailing spaces (except line breaks: two spaces)
+- No multiple consecutive blank lines
+- Maximum line length: 80-120 characters (when practical)
+
+### Additional Best Practices
+
+- **Escape special characters** when literal (`\*`, `\_`, etc.)
+- **Tables**: Use proper alignment, consistent spacing
+- **Emphasis**: `*italic*` and `**bold**` (not `_` variants for consistency)
+- **Task lists**: `- [ ]` and `- [x]` for checkboxes
+
+### Validation
+
+Run through a linter (markdownlint, remark-lint) before considering complete.
